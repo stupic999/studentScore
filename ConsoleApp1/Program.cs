@@ -6,12 +6,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Student
-    {
-        public string StuID { get; set; }
-        public int StuScore { get; set; }
-    }
-
     class Program
     {
         static void Main(string[] args)
@@ -48,6 +42,12 @@ namespace ConsoleApp1
             }
             Console.Write("Press Any Button To Quit");
             Console.ReadKey();
+        }
+
+        class Student
+        {
+            public string StuID { get; set; }
+            public int StuScore { get; set; }
         }
     }
 }
